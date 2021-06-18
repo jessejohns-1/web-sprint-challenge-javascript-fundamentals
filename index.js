@@ -198,9 +198,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 /* 🐴🐴🐴 Step 1: Base Constructor 🐴🐴🐴
  Use the constructor function named CuboidMaker to accept properties for length, width, and height which can be initialized as an object
 */
-function CuboidMaker(/*Your Code Here */) {
-  /*Your Code Here */
-}
+// function CuboidMaker(/*Your Code Here */) {
+//   /*Your Code Here */
+// }
 
 /* 🐴🐴🐴 Step 2: Volume Method 🐴🐴🐴
   Create a method called volume using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
@@ -222,7 +222,7 @@ function CuboidMaker(/*Your Code Here */) {
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
 //🦄🦄🦄 1. Take your prototypes from above and refactor into class syntax. Please rename your class CuboidMakerTwo and your object cuboidTwo 🦄🦄🦄
-class CuboidMakerTwo {}
+// class CuboidMakerTwo {}
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
 // console.log(cuboidTwo.volume()); // 100
@@ -246,6 +246,6 @@ export default {
   add,
   multiply,
   greeting,
-  CuboidMaker,
-  CuboidMakerTwo,
+  // CuboidMaker,
+  // CuboidMakerTwo,
 };
